@@ -25,7 +25,7 @@ FactoryGirl.define do
     name { generate(:playlist_name) }
 
     factory :playlist_with_songs do
-      songs { create_list(:song, 3)}
+      songs { create_list(:song, 3) }
     end
   end
 end
